@@ -4,7 +4,7 @@ metadata:
   name: worker
   namespace: vote
 spec:
-  replicas: 4
+  replicas: cc
   selector:
     matchLabels:
       app: worker
