@@ -26,7 +26,7 @@ metadata:
   name: vote-service
   namespace: vote
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: vote-app
   ports:
